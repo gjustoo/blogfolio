@@ -50,4 +50,4 @@ It was a fun week, actually got the motivation to start studing cyber again. Let
 Remember to always secure/block services by default and keep your secrets.. secrets. 
 
 ### Stay safe! - gjx00
-![lock-in monkey](images/blog/lock-in_monkey.png)
+![lock-in monkey](../images/blog/lock-in_monkey.png)
