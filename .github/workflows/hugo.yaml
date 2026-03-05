@@ -95,6 +95,10 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./blogfolio/public
+      - name: Test directories
+        run: |
+          ls;
+          pwd
   deploy:
     environment:
       name: github-pages

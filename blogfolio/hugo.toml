@@ -63,7 +63,6 @@ ignoreErrors = ["error-disable-taxonomy"]
     lineNos = true
     lineNumbersInTable = false
     codeFences = true
-canonifyURLs = true
 
 [caches]
   [caches.images]
