@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Off-topic on gjx00 Blogfolio</title>
+    <link>http://localhost:1313/blog/off-topic/</link>
+    <description>Recent content in Off-topic on gjx00 Blogfolio</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2026, gjx00.</copyright>
+    <lastBuildDate>Thu, 05 Mar 2026 11:35:39 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/off-topic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/my-first-post/</link>
+      <pubDate>Thu, 05 Mar 2026 11:35:39 +0100</pubDate>
+      <guid>http://localhost:1313/my-first-post/</guid>
+      <description>&lt;h2 id=&#34;hello-world&#34;&gt;Hello world&lt;/h2&gt;&#xA;&lt;p&gt;Hello Everynyan, this is my first post, and also a test post.&lt;/p&gt;&#xA;&lt;h3 id=&#34;wth-am-i-doing-&#34;&gt;WTH am I doing ?&lt;/h3&gt;&#xA;&lt;p&gt;Idk, just writing stuff on the internet and practicing my english wiritting skills&amp;hellip; They&amp;rsquo;re so rusty&amp;hellip;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;anyaway-heres-an-image-of-literally-me&#34;&gt;ANyaway here&amp;rsquo;s an image of literally me&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/37b134929c085b85bfbc9d8092d4fa23.jpg&#34; alt=&#34;literally me, if I were cool&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>http://localhost:1313/markdown-syntax-guide/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/markdown-syntax-guide/</guid>
+      <description>&lt;p&gt;For a quick cheatsheet, check out &lt;a href=&#34;https://simplemde.com/markdown-guide&#34;&gt;https://simplemde.com/markdown-guide&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

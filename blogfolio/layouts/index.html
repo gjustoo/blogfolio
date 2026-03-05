@@ -1,0 +1,16 @@
+{{ define "main" }} {{ .Content }} 
+
+<h2>Recent blog posts</h2>
+<hr />
+
+<ul>
+  {{ range first 10 (sort (where .Site.RegularPages "Section" "blog") "Date"
+  "desc") }}
+  <li>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    <small>[{{ .CurrentSection.Title }}]</small>
+  </li>
+  {{ end }}
+</ul>
+
+{{ end }} 
