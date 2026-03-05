@@ -79,6 +79,7 @@ jobs:
             hugo-
       - name: Build the site
         run: |
+          cd blogfolio ;
           hugo build \
             --gc \
             --minify \
