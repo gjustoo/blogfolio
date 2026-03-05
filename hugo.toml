@@ -64,6 +64,3 @@ ignoreErrors = ["error-disable-taxonomy"]
     lineNumbersInTable = false
     codeFences = true
 
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
