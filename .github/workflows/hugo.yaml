@@ -73,7 +73,7 @@ jobs:
         id: cache-restore
         uses: actions/cache/restore@v5
         with:
-          path: ${{ runner.temp }}/blogfolio/hugo_cache
+          path: ${{ runner.temp }}/hugo_cache
           key: hugo-${{ github.run_id }}
           restore-keys:
             hugo-
@@ -84,17 +84,17 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
-            --cacheDir "${{ runner.temp }}/blogfolio/hugo_cache"
+            --cacheDir "${{ runner.temp }}/hugo_cache"
       - name: Cache save
         id: cache-save
         uses: actions/cache/save@v5
         with:
-          path: ${{ runner.temp }}/blogfolio/hugo_cache
+          path: ${{ runner.temp }}/hugo_cache
           key: ${{ steps.cache-restore.outputs.cache-primary-key }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./blogfolio/public
+          path: ./public
       - name: Test directories
         run: |
           ls;
